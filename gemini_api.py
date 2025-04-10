@@ -2,7 +2,7 @@ import google.generativeai as genai
 import PIL.Image
 
 # Configure the API key
-genai.configure(api_key="AIzaSyACloMraQUd2plyqOVpsGTc4QeMRb54-nw")  # Replace with your actual API key
+genai.configure(api_key="hehe")  # Replace with your actual API key
 
 # Load the image
 image = PIL.Image.open('kitty.jpg')  # Ensure the image exists in the correct path
