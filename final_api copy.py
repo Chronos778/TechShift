@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 app = Flask(__name__)
 
 # Configure the API key (replace "my-key" with your actual API key)
-genai.configure(api_key="AIzaSyACloMraQUd2plyqOVpsGTc4 QeMRb54-nw")
+genai.configure(api_key="hehe")
 
 # Select the model (use "gemini-1.5-flash" or "gemini-1.5-pro" as needed)
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
